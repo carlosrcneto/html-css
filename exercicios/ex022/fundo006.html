@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dimensionamento do Fundo</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
-            background-repeat: no-repeat;
+            /*  background-color: black;
+                background-image: url('imagens/wallpaper002.jpg');
+                background-position: center top;
+                background-repeat: repeat-y;
+                background-size: cover;
+                background-attachment: fixed;
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
+        /* Shorthand Background
+          color > image > position > repeat > [size] > attachment
+        */
+
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,6 +37,9 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quo quaerat maxime illum dignissimos optio expedita aliquam et eos possimus, dolorum, nulla a doloremque iusto, eius fugit eaque! Architecto, quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quaerat quis aspernatur repudiandae culpa recusandae natus obcaecati veniam tempore, labore ullam ut molestias a deserunt temporibus libero adipisci illum consequatur? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, placeat repellat! In nobis sint ad voluptatem maxime, porro recusandae molestiae ipsum animi odit, officiis reiciendis? Quaerat voluptas tenetur dignissimos voluptatum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam harum voluptatum ut tempora iure dolorum cumque veniam a quibusdam omnis tempore nostrum, minus quis sunt amet consequuntur reprehenderit, quaerat blanditiis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non eos tenetur earum atque suscipit, autem, harum ex eius similique dolorem vero asperiores et blanditiis ab a animi? Ducimus, recusandae totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus ut delectus amet impedit, esse velit soluta ea, ipsam sapiente sed aliquam nostrum, rem ad. Minima tenetur doloremque excepturi recusandae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolore cum laborum quod a pariatur, ut in! Dolor nam, quo dolores, autem eius vero numquam doloribus praesentium sint, officia incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad harum velit minus corrupti a libero ratione, ducimus possimus placeat excepturi! Eligendi perspiciatis nemo sit harum aliquam odit unde maiores eos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur similique laudantium aperiam sed, animi voluptates autem incidunt fugiat perferendis saepe consequatur consectetur nemo assumenda officia eos inventore, consequuntur libero et?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aut atque est, velit possimus incidunt, illum molestias itaque sapiente, libero quibusdam aspernatur at ex iusto fugiat consequuntur quo qui reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, voluptas consectetur hic deserunt ratione quisquam! Provident inventore velit molestias deserunt non facere, optio nobis eaque quasi dolorum quo adipisci quidem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quas sit accusantium laudantium, corrupti aliquid perspiciatis commodi nobis tempora nisi facilis hic porro quo eos harum officiis praesentium voluptas asperiores?</p>
     </main>
 </body>
 </html>
